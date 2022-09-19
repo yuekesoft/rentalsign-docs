@@ -1,5 +1,5 @@
 const sidebar =  {
-    '/guide/': [
+    'guide/': [
       {
         text: '操作指南',
         //collapsible: true,
