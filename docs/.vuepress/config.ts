@@ -7,6 +7,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 export default {
     title: '越客软件 官方文档',
     description: '这是我的第一个 VuePress 站点', 
+    base: '/rentalsign/', 
 
     markdown: {
         headers: {
@@ -21,7 +22,7 @@ export default {
         lastUpdatedText: '上次更新',
         contributorsText: '贡献者',
         // 你也可以直接将它设置为一个 URL
-        repo: 'yuekesoft/rentalsign-docs',   
+        repo: 'yuekesoft/rentalsign-docs',  
         docsDir: 'docs',      
         // 导航栏
         navbar: nav,
