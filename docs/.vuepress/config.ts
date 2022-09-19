@@ -6,7 +6,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
     title: '越客软件 官方文档',
-    description: '这是我的第一个 VuePress 站点', 
+    description: '操作指南（越客会议签到管理软件租用版）', 
     base: '/rentalsign/', 
 
     markdown: {
