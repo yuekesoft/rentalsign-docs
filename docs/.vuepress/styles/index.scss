@@ -31,6 +31,22 @@
     padding-right: 0 !important;
   }
 
+  .page .theme-default-content h2:before{
+    position: absolute;
+    left: 0;
+    top: 4.7rem;
+    display: block;
+    height: 1.8rem;
+    content: "";
+    border-left: 5px solid #3eaf7c;
+  }
+
+  .page .theme-default-content h2{    
+    position: relative;
+    padding-left: 0.8rem;
+
+  }
+
 /*
 .sidebar-item-children .sidebar-item.active{
     background-color: #d8efe5;
