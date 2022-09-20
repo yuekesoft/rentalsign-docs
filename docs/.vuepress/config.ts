@@ -2,6 +2,9 @@ const nav = require("./nav.js");
 const sidebar = require("./sidebar.js");
 
 import { defaultTheme } from '@vuepress/theme-default'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
 
 
 export default {
@@ -20,7 +23,15 @@ export default {
         [
             'link', { rel: 'icon', href: '/images/yklogo32_32.png' }
         ]
-    ],        
+    ],   
+
+    plugins: [
+        backToTopPlugin(),// 回到顶部
+        nprogressPlugin(),// 换页进度条
+        activeHeaderLinksPlugin({
+            // 配置项
+          })
+      ],   
     
     theme: defaultTheme({
         logo: '/images/yklogo.png',// 导航栏logo
