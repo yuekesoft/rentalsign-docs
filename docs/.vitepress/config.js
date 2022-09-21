@@ -104,15 +104,21 @@ function nav() {
       {
         text: '高级功能',
         collapsible: true,
+        collapsed: true,
         items:[
-          { text: '胸卡打印设置', link: '/guide/advance' }         
+          { text: '胸卡打印设置', link: '/guide/printcard' },  
+          { text: '报名表单设置', link: '/guide/signup' },
+          { text: '进出扫码记录进出时间', link: '/guide/signinout' },
+          { text: '自动分配座位', link: '/guide/autoseatno' }
         ]
       },  
       {
         text: '移动签到',
         collapsible: true,
+        collapsed: true,
         items:[
-          { text: '胸卡打印设置', link: '/guide/mobilesign' }         
+          { text: '手持机签到', link: '/guide/mobilesign' },
+          { text: '微信小程序签到', link: '/guide/wxmini' }         
         ]
       },
     ]
