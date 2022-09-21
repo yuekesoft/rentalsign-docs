@@ -29,4 +29,4 @@ jobs:
           access-key-secret: ${{secrets.SECRETS_ACCESS_KEY_SECRET}}
       - name: cp files to aliyun
         run: ossutil rm oss://vuepressdocs/rentalsign/ -rf
-        run: ossutil cp -rf docs/.vitepress/dist  oss://vuepressdocs/rentalsign/
+        ossutil cp -rf docs/.vitepress/dist  oss://vuepressdocs/rentalsign/
