@@ -1,0 +1,14 @@
+/* .vitepress/theme/custom.css */
+/* :root {
+    --vp-home-hero-name-color: blue;
+  } */
+
+  :root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3eaf7c, #41d1ff);
+  }
+
+  :root {
+    --vp-c-brand: #3eaf7c;
+    --vp-c-brand-light: #3eaf7c;
+  }

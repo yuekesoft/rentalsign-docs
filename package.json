@@ -1,15 +1,15 @@
 {
-  "name": "vuepress2x",
+  "name": "vitepress",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "yuekesoft <1961339@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.51"
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "repository": "https://github.com/yuekesoft/vuepressdocs.git"
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
 }
