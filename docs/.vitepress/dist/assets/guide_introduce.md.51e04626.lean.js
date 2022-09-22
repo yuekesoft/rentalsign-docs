@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,a as h}from"./app.b4ef69af.js";const f=JSON.parse('{"title":"\u4ECB\u7ECD","description":"","frontmatter":{},"headers":[],"relativePath":"guide/introduce.md","lastUpdated":1663686927000}'),d={name:"guide/introduce.md"},t=h("",27),s=[t];function i(n,c,o,p,u,l){return r(),e("div",null,s)}const b=a(d,[["render",i]]);export{f as __pageData,b as default};

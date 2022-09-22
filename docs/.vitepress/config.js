@@ -24,7 +24,7 @@ export default {
     head: [
         // 设置 favor.ico，.vuepress/public 下
         [
-            'link', { rel: 'icon', href: '/images/yklogo32_32.png' }
+            'link', { rel: 'icon', href: '/rentalsign/images/yklogo32_32.png' }
         ]
     ],   
   
@@ -93,8 +93,8 @@ function nav() {
         items:[
           { text: '准备', link: '/guide/start' },
           { text: '软件登陆', link: '/guide/login' },
-          { text: '批量导入人员', link: '/guide/importemp' },
-          { text: '添加会议', link: '/guide/meeting' }, 
+          { text: '批量导入参会人员信息', link: '/guide/importemp' },
+          { text: '添加会议信息', link: '/guide/meeting' }, 
           { text: '添加参会人员', link: '/guide/addparticipants' }, 
           { text: '短信群发', link: '/guide/smssend' },
           { text: '会议签到', link: '/guide/signin' }, 

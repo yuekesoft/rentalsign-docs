@@ -1,20 +1,4 @@
 /* .vitepress/theme/custom.css */
-/* :root {
-    --vp-home-hero-name-color: blue;
-  } 
-
-  :root {
-    --vp-sidebar-width: 240px;
-  }
-
-  .VPSidebar[data-v-6750ea26]{
-    padding-left: 32px;  
-    
-    padding-top: 32px;
-
-    padding-right: 0px;
-  }
-  */
   :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3eaf7c, #41d1ff);
@@ -25,28 +9,22 @@
     --vp-c-brand-light: #3eaf7c;
   }
 
-  /*左侧sidebar样式*/
-  .link.active[data-v-5bf915fe] {
-    color: var(--vp-c-brand);
-    background-color: #d8efe5;
-    border-right: 0.30rem solid transparent;
-    border-right-color: #3eaf7c;    
+  /* 左侧sidebar样式 */
+.VPSidebarGroup .items{
+  padding-left: 14px;
 }
 
-.items[data-v-8b980502] {
-  overflow: hidden;
-  padding-left: 10px;
+.VPSidebarGroup .items .link.active{
+  background-color: #d8efe5;
+  border-left: 0.20rem solid transparent;
+  border-left-color: #3eaf7c;
 }
 
-/*
-element.style {
-  padding-left: 10px;
+.vp-doc h2:before{
+  position: absolute;
+  left: -8px;
+  display: block;
+  height: 1.86rem;
+  content: "";
+  border-left: 5px solid #3eaf7c;
 }
-.VPSidebar[data-v-6750ea26]{
-  padding: 32px 0px 0px 64px;
-}
-
-*/
-
-
-
