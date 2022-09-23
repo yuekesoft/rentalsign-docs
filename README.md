@@ -10,3 +10,8 @@ $ yarn add --dev vitepress vue
 
 
 
+/netsign/  网络版文档
+
+/signle/ 单机版文档
+
+/guide/ 租用版文档
