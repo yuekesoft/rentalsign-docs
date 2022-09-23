@@ -22,9 +22,3 @@
 
 ## 签到软件基本操作流程
 
-第一步：[批量导入参会人员信息](importemp)；<br>
-第二步：[添加会议信息](meeting)；<br>
-第三步：[添加参会人员](addparticipants)；<br>
-第四步：[短信群发](smssend)；<br>
-第五步：[开始会议签到](signin)；<br>
-第五步：[导出签到统计报表](exportsignlog)

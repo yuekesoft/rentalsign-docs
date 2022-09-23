@@ -1,0 +1,1 @@
+import{_ as s,c as e,o as t,a}from"./app.7edb8216.js";const g=JSON.parse('{"title":"\u8F6F\u4EF6\u767B\u5F55","description":"","frontmatter":{},"headers":[],"relativePath":"netsign/login.md","lastUpdated":1663919801000}'),o={name:"netsign/login.md"},c=a("",6),n=[c];function i(p,r,_,d,l,h){return t(),e("div",null,n)}const u=s(o,[["render",i]]);export{g as __pageData,u as default};
