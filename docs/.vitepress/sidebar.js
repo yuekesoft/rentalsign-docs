@@ -54,13 +54,39 @@ const sidebar =  {
       items:[
         { text: '软件介绍', link: '/netsign/introduce' }         
       ]
-    } ,
+    },
     {
       text: '快速上手',
       collapsible: true,
       items:[
         { text: '准备', link: '/netsign/start' },
-        { text: '软件登陆', link: '/netsign/login' }       
+        { text: '软件登陆', link: '/netsign/login' },  
+        { text: '批量导入参会人员信息', link: '/netsign/importemp' },
+        { text: '添加会议信息', link: '/netsign/meeting' }, 
+        { text: '添加参会人员', link: '/netsign/addparticipants' }, 
+        { text: '短信群发', link: '/netsign/smssend' },
+        { text: '会议签到', link: '/netsign/signin' }, 
+        { text: '导出统计报表', link: '/netsign/exportsignlog' }              
+      ]
+    },
+    {
+      text: '高级功能',
+      collapsible: true,
+      collapsed: true,
+      items:[
+        { text: '胸卡打印设置', link: '/netsign/printcard' },  
+        { text: '报名表单设置', link: '/netsign/signup' },
+        { text: '进出扫码记录进出时间', link: '/netsign/signinout' },
+        { text: '自动分配座位', link: '/netsign/autoseatno' }
+      ]
+    },  
+    {
+      text: '移动签到',
+      collapsible: true,
+      collapsed: true,
+      items:[
+        { text: '手持机签到', link: '/netsign/mobilesign' },
+        { text: '微信小程序签到', link: '/netsign/wxmini' }         
       ]
     }
   ]

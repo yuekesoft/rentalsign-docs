@@ -2,7 +2,7 @@
 
 1. 移动手持机外观，安装有安卓APP，手持机集成了激光二维码扫描头，直接按黄色按钮，就扫码签到。
 
-![2020-10-16_5f895fbbf00f7](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209261121982.png)
+![202209261121982](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209270959858.jpg)
 
 ::: tip 提示
 

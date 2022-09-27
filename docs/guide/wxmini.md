@@ -6,7 +6,7 @@
 
 2. 登陆之后，打开主界面，首先选择需要签到的会议主题，点击`扫一扫`按钮开始扫码签到。
 
-![2](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209261112209.png)
+![202209261112209](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209270958645.jpg)
 
 3. 点击下部按钮栏`人员列表`打开人员信息列表。
 
