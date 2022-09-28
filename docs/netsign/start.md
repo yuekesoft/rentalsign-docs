@@ -6,16 +6,27 @@
 
 ### 安装步骤
 
-1. 解压安装文件，得到`越客会议签到管理软件(网络版).exe`文件，双击打开进行安装。
+1. 解压安装文件，得到`越客会议签到管理软件(网络版).exe`文件。
+
+![image-20220928151715351](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209281517422.png)
+
+2. 双击打开进行安装。
+
+![image-20220928151807745](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209281518850.png)
+
+3. 点击`下一步`按钮。
+
+![image-20220928151925054](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209281519101.png)
+
+4. 点击`安装`按钮。
+
+![image-20220928151951380](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209281519437.png)
 
 
 
-2. 点击`下一步`，`下一步`，直到完成。
+5. 点击`完成`按钮，安装结束。
 
-
-
-
-
+![image-20220928152119125](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209281521162.png)
 
 
 
