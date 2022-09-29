@@ -1,6 +1,7 @@
 const sidebar =  {
   // This sidebar gets displayed when user is
   // under `guide` directory.
+  // 租用版说明文档左侧菜单
   '/guide/': [
     {
       text: '简介',
@@ -47,6 +48,7 @@ const sidebar =  {
 
   // This sidebar gets displayed when user is
   // under `config` directory.
+  // 网络版说明文档左侧菜单
   '/netsign/': [
     {
       text: '简介',
@@ -59,7 +61,7 @@ const sidebar =  {
       text: '快速上手',
       collapsible: true,
       items:[
-        { text: '准备', link: '/netsign/start' },
+        { text: '准备安装', link: '/netsign/start' },
         { text: '软件登陆', link: '/netsign/login' },  
         { text: '批量导入参会人员信息', link: '/netsign/importemp' },
         { text: '添加会议信息', link: '/netsign/meeting' }, 
@@ -89,7 +91,41 @@ const sidebar =  {
         { text: '微信小程序签到', link: '/netsign/wxmini' }         
       ]
     }
+  ],
+  //
+  // 单机版说明文档左侧菜单
+  '/signle/': [
+    {
+      text: '简介',
+      collapsible: true,
+      items:[
+        { text: '软件介绍', link: '/signle/introduce' }         
+      ]
+    },
+    {
+      text: '快速上手',
+      collapsible: true,
+      items:[
+        { text: '准备安装', link: '/signle/start' },
+        { text: '注册服务端', link: '/signle/regserver' },
+        { text: '软件登陆', link: '/signle/login' },  
+        { text: '批量导入参会人员信息', link: '/signle/importemp' },
+        { text: '添加会议信息', link: '/signle/meeting' }, 
+        { text: '添加参会人员', link: '/signle/addparticipants' }, 
+        { text: '短信群发', link: '/signle/smssend' },
+        { text: '会议签到', link: '/signle/signin' }, 
+        { text: '导出统计报表', link: '/signle/exportsignlog' }              
+      ]
+    },
+    {
+      text: '高级功能',
+      collapsible: true,
+      collapsed: true,
+      items:[
+        { text: '胸卡打印设置', link: '/signle/printcard' }
+      ]
+    }
   ]
 }
 
-  module.exports = sidebar;
+module.exports = sidebar;
