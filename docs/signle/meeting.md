@@ -4,21 +4,15 @@
 
 ![image-20220920191450290](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209201914358.png)
 
-2. 打开会议信息设置界面如下(h5在线报名表单设置在高级功能里面)：
+2. 打开会议信息设置界面如下：
 
-![image-20220920191555976](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209201915074.png)
+![image-20220930145057666](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209301450726.png)
 
 * 会议主题：可以录入嘉宾签到或者此次会议的名称；
-
 * 开始时间：默认就可以；
-
 * 结束时间：会议结束签到的时间，可以往后推一天的日期；
-
 * 会议时间：这个时间是显示在签到二维码页面上面的，可以按会议签到实际时间设置；
-
 * 会议地点：填写本次会议举办的会议厅，显示在签到二维码页面；
-
-* 二维码显示页面jpg图片：可以做个按要求的尺寸图片，上传，会显示在签到二维码页面的顶部；
 
 3. 点击`保存`完成。
 

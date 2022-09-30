@@ -124,7 +124,15 @@ const sidebar =  {
       items:[
         { text: '胸卡打印设置', link: '/signle/printcard' }
       ]
-    }
+    },
+    {
+      text: '常见问题',
+      collapsible: true,
+      items:[
+        { text: '账号无效', link: '/signle/useridinvalid' },
+        { text: '连接服务器失败', link: '/signle/netfail' }
+      ]
+    }    
   ]
 }
 
