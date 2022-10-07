@@ -5,6 +5,9 @@ hero:
   name: 越客签到软件 官方文档
   text: 
   tagline: 越客签到管理软件操作指南
+  image:
+    src: /images/yklogo.png
+    alt: 越客软件  
   actions:
     - theme: brand
       text: 租用版

@@ -51,14 +51,37 @@
 
 如果仍未解决，请反馈给我们，便于问题的跟踪及解决。
 
-#### 联系我们
+#### :frowning_man:联系我们
 
 越客官网：https://www.yuekesoft.com/<br>
-Email：1258062975@qq.com<br>
-联系电话：13587377801<br>
+Email:email:：1258062975@qq.com<br>
+联系电话:iphone:：13587377801<br>
 联系QQ：1258062975<br>
 微信官方服务号：越客软件<br>
 微信：yuekesoft
 
-![2020-10-12_5f83c4218da15](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209201133633.jpg)![2020-10-12_5f83c41663fd2](https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209201133771.jpg)
+<!--图片并排 -->
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<div><table frame=void>	<!--用了<div>进行封装-->
+	<tr>
+        <td><div><center>	<!--每个格子内是图片加标题-->
+        	<img src="https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202209201133633.jpg"
+                 alt="2020-10-12_5f83c4218da15"
+                 style="zoom:50%;"/>	<!--高度设置-->
+        	<br>	<!--换行-->
+        	技术微信	<!--标题1-->
+        </center></div></td>    
+     	<td><div><center>	<!--第二张图片-->
+    		<img src="https://vuepressdocs.oss-cn-hangzhou.aliyuncs.com/docsimages/202210071422446.jpg"
+                 alt="2022-10-07_5f83c42182446"
+                 style="zoom:50%;"/>	
+    		<br>
+    		越客软件服务号
+        </center></div></td>
+	</tr>
+</table></div>
 
