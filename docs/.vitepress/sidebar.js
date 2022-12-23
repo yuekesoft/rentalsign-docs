@@ -122,7 +122,8 @@ const sidebar =  {
       collapsible: true,
       collapsed: true,
       items:[
-        { text: '胸卡打印设置', link: '/signle/printcard' }
+        { text: '胸卡打印设置', link: '/signle/printcard' },
+        { text: '局域网数据共享设置', link: '/signle/networkshare' },
       ]
     },
     {
